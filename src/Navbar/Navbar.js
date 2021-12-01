@@ -54,6 +54,9 @@ function Navbar({ walletAddress, setWalletAddress }) {
           {/* {button && <Button buttonStyle='btn--outline'>Connect</Button>} */}
         </div>
       </nav>
+      <h1 className= 'title'>
+        NFTurks
+      </h1>
     </>
   );
 }
