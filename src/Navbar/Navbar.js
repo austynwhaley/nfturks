@@ -22,31 +22,11 @@ function Navbar({ walletAddress, setWalletAddress }) {
   }, [account, setWalletAddress]);
 
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
-
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
-        <iframe title="3D Object" id="9df5df3f-8cc9-4a5f-b8dc-83a196130e13" src="https://app.vectary.com/viewer/v1/?model=9df5df3f-8cc9-4a5f-b8dc-83a196130e13&env=studio1" frameborder="0" width="100%" height="380"></iframe>          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            
-
-          <div>
+        <div className='navbar-container'>   
+          <div className='walletButton'>
             {walletAddress && etherBalance ? (
               <Button
                 buttonStyle='btn--outline'
@@ -58,7 +38,7 @@ function Navbar({ walletAddress, setWalletAddress }) {
               >
                 <span className='eth-balance'>{`${parseFloat(
                   formatEther(etherBalance)
-                ).toFixed(3)} ETH`}</span>
+                ).toFixed(4)} ETH`}</span>
                 <span className='wallet-address'>{`${walletAddress.slice(
                   0,
                   5
@@ -70,7 +50,7 @@ function Navbar({ walletAddress, setWalletAddress }) {
               </Button>
             )}
           </div>
-          </ul>
+    
           {/* {button && <Button buttonStyle='btn--outline'>Connect</Button>} */}
         </div>
       </nav>
