@@ -6,13 +6,9 @@ import { useEthers, useEtherBalance } from '@usedapp/core';
 import { formatEther } from '@ethersproject/units';
 
 function Navbar({ walletAddress, setWalletAddress }) {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
   const { activateBrowserWallet, account } = useEthers();
   const etherBalance = useEtherBalance(account);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
   const handleConnectWallet = () => {
     activateBrowserWallet();
   };
