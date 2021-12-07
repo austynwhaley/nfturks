@@ -13,7 +13,13 @@
 
 .title{
   font-size: 50px;
+  border: 7px solid rgb(14, 15, 14);
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
 }
+
+
 
 
 

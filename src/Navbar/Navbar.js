@@ -32,7 +32,7 @@ function Navbar({ walletAddress, setWalletAddress }) {
                 color='primary'
                 disableElevation
               >
-                <span className='eth-balance'>{`${parseFloat(
+                <span className='eth-balance'>Ξ {`${parseFloat(
                   formatEther(etherBalance)
                 ).toFixed(4)} ETH`}</span>
                 <span className='wallet-address'>{`${walletAddress.slice(
@@ -51,7 +51,7 @@ function Navbar({ walletAddress, setWalletAddress }) {
         </div>
       </nav>
       <h1 className= 'title'>
-        NFTurks
+        NF<span style={{color: "red"}}>Turks</span>
       </h1>
     </>
   );
