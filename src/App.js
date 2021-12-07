@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 import Navbar from './Navbar/Navbar';
 import { Button } from './Button/Button'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 function App() {
   const [walletAddress, setWalletAddress] = useState('')
   const [showMessage, setMessage] = useState(false)
