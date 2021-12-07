@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/nfturks/static/css/main.a75a790a.chunk.css",
-    "main.js": "/nfturks/static/js/main.cee56a72.chunk.js",
-    "main.js.map": "/nfturks/static/js/main.cee56a72.chunk.js.map",
+    "main.css": "/nfturks/static/css/main.f65b3764.chunk.css",
+    "main.js": "/nfturks/static/js/main.8cf63c26.chunk.js",
+    "main.js.map": "/nfturks/static/js/main.8cf63c26.chunk.js.map",
     "runtime-main.js": "/nfturks/static/js/runtime-main.8e084d54.js",
     "runtime-main.js.map": "/nfturks/static/js/runtime-main.8e084d54.js.map",
     "static/js/2.4f7be041.chunk.js": "/nfturks/static/js/2.4f7be041.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.69206126.chunk.js": "/nfturks/static/js/3.69206126.chunk.js",
     "static/js/3.69206126.chunk.js.map": "/nfturks/static/js/3.69206126.chunk.js.map",
     "index.html": "/nfturks/index.html",
-    "static/css/main.a75a790a.chunk.css.map": "/nfturks/static/css/main.a75a790a.chunk.css.map",
+    "static/css/main.f65b3764.chunk.css.map": "/nfturks/static/css/main.f65b3764.chunk.css.map",
     "static/js/2.4f7be041.chunk.js.LICENSE.txt": "/nfturks/static/js/2.4f7be041.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e084d54.js",
     "static/js/2.4f7be041.chunk.js",
-    "static/css/main.a75a790a.chunk.css",
-    "static/js/main.cee56a72.chunk.js"
+    "static/css/main.f65b3764.chunk.css",
+    "static/js/main.8cf63c26.chunk.js"
   ]
 }
