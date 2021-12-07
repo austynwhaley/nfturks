@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/nfturks/static/css/main.a75a790a.chunk.css",
-    "main.js": "/nfturks/static/js/main.a6e70288.chunk.js",
-    "main.js.map": "/nfturks/static/js/main.a6e70288.chunk.js.map",
+    "main.js": "/nfturks/static/js/main.428d1cc8.chunk.js",
+    "main.js.map": "/nfturks/static/js/main.428d1cc8.chunk.js.map",
     "runtime-main.js": "/nfturks/static/js/runtime-main.8e084d54.js",
     "runtime-main.js.map": "/nfturks/static/js/runtime-main.8e084d54.js.map",
-    "static/js/2.0ecf94e3.chunk.js": "/nfturks/static/js/2.0ecf94e3.chunk.js",
-    "static/js/2.0ecf94e3.chunk.js.map": "/nfturks/static/js/2.0ecf94e3.chunk.js.map",
+    "static/js/2.290e5c1c.chunk.js": "/nfturks/static/js/2.290e5c1c.chunk.js",
+    "static/js/2.290e5c1c.chunk.js.map": "/nfturks/static/js/2.290e5c1c.chunk.js.map",
     "static/js/3.69206126.chunk.js": "/nfturks/static/js/3.69206126.chunk.js",
     "static/js/3.69206126.chunk.js.map": "/nfturks/static/js/3.69206126.chunk.js.map",
     "index.html": "/nfturks/index.html",
     "static/css/main.a75a790a.chunk.css.map": "/nfturks/static/css/main.a75a790a.chunk.css.map",
-    "static/js/2.0ecf94e3.chunk.js.LICENSE.txt": "/nfturks/static/js/2.0ecf94e3.chunk.js.LICENSE.txt"
+    "static/js/2.290e5c1c.chunk.js.LICENSE.txt": "/nfturks/static/js/2.290e5c1c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e084d54.js",
-    "static/js/2.0ecf94e3.chunk.js",
+    "static/js/2.290e5c1c.chunk.js",
     "static/css/main.a75a790a.chunk.css",
-    "static/js/main.a6e70288.chunk.js"
+    "static/js/main.428d1cc8.chunk.js"
   ]
 }
