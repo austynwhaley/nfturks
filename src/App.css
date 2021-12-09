@@ -31,6 +31,7 @@ body {
 }
 
 .mintMessage{
+  margin-top: 30px;
   color: red;
   font-size: 15px;
 }
@@ -45,6 +46,7 @@ body {
   padding: 50px;
   margin: auto;
   margin-top: 130px;
+  margin-bottom: 130px;
   border-radius: 5px;
 }
 .description{
