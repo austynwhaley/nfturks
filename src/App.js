@@ -24,8 +24,8 @@ function App() {
         </header>
         <div className='descriptionContainer'>
           <h2>What are <span className='turks'>Turks</span>?</h2>
-          <p className='description'>--<span className='turks'>Turks</span> are your 1 of 1 minted 3D models that will be registered on the Etherum blockchain and will be able to be traded and sold.</p>
-          <p className='description'>--<span className='turks'>Turk</span> holders will have FULL ownsership of their model, they will recieve a T-pose OBJ file of their model that can be used in any metaverse application.</p>
+          <p className='description'>--<span className='turks'>Turks</span> are your 1 of 1 minted 3D models that will be registered on the Ethereum blockchain and will be able to be traded and sold.</p>
+          <p className='description'>--<span className='turks'>Turk</span> holders will have FULL ownership of their model, they will receive a T-pose OBJ file of their model that can be used in any metaverse application.</p>
           <p className='description'>--But the best feature of all they are a key to enter the <span className='turks'>Turk</span> metaverse.</p>
         </div>
         
