@@ -1,6 +1,6 @@
 {
-  "homepage": "https://austynwhaley.github.io/portfolioII",
-  "name": "portfolio2",
+  "homepage": "https://austynwhaley.github.io/portfolioI",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
